@@ -15,9 +15,9 @@ export interface UserState {
 export function defaultSetting(): UserState {
   return {
     userInfo: {
-           avatar: 'https://lh3.googleusercontent.com/a/AGNmyxajjH1LF5iq0qlOxFUS_tZ2c7iYXEpRnu2po43l=s96-c',
-      		 name: 'Gico',
-           description: '',
+      avatar: 'https://lh3.googleusercontent.com/a/AGNmyxajjH1LF5iq0qlOxFUS_tZ2c7iYXEpRnu2po43l=s96-c',
+      name: 'Gico',
+      description: '',
     },
   }
 }
